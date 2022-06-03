@@ -1,0 +1,60 @@
+.HomePage_container {
+    background-color: #fff;
+    padding: 2% 3%;
+    .header_content {
+        text-align: left;
+        cursor: pointer;
+        img {
+            width: 20%;
+        }
+    }
+    h2 {
+        text-align: center;
+        font-size: 2.6rem;
+        font-weight: 700;
+        margin-top: 2%;
+        color: #a5bac9;
+        text-transform: lowercase;
+        &::first-letter,
+        &::first-line {
+            text-transform: capitalize;
+        }
+        span {
+            color: #ff4438;
+            font-weight: 600;
+            opacity: 0.8;
+            font-size: 1.8rem;
+        }
+    }
+    .HomePage_select {
+        padding-top: 5%;
+        width: 25vw;
+        padding-left: 5%;
+        h4{
+            color: #a5bac9;
+            font-size: 1.6rem;
+            cursor: pointer;
+            .anticon{
+                font-size: 1.5rem;
+                color:#5e5e5e;
+                margin-right: 3%;
+            }
+        }
+        h3{
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: #816868;
+            padding-top: 5%;
+        }
+        .ant-select{
+            width: 100%;
+        .ant-select-selector {
+            width: 100%;
+          }
+        }
+    }
+}
+.ant-checkbox-group {
+    display: flex;
+    flex-direction: column;
+  }
